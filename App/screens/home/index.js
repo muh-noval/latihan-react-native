@@ -21,7 +21,7 @@ const Home = ({navigation}) => {
         />
       </View>
       <View style={styles.setkonten}>
-        <Text style={styles.setjudul}>~ Jasa Angkutan Kota ~</Text>
+        <Text style={styles.setjudul}>~ Jasa Angkut Barang ~</Text>
         <View style={styles.bg_konten}>
           <TouchableOpacity
             style={styles.konten}
