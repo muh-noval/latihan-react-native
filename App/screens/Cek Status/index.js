@@ -62,9 +62,9 @@ const Cek_Status = () => {
 
     // save first user
     await AsyncStorage.setItem('@MyApp_user', JSON.stringify(USER_1));
-    setNama('')
-    setEmail('')
-    setNumber('')
+    setNama('');
+    setEmail('');
+    setNumber('');
   };
 
   return (
@@ -92,13 +92,6 @@ const Cek_Status = () => {
         value={email}
         placeholder={'email anda'}
       />
-      {/* <TextInput
-        style={styles.input}
-        onChangeText={setEmail}
-        value={email}
-        placeholder={'email'}
-        keyboardType="email-address"
-      /> */}
       <TextInput
         style={styles.input}
         onChangeText={setNumber}

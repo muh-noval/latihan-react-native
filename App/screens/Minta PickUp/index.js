@@ -27,7 +27,7 @@ import GET_Pokemons from '../../configs/query/pokemons';
 //   },
 // ];
 
-const numColumns = 2
+const numColumns = 2;
 
 const Item = ({judul, deskripsi, image, link}) => {
   return (
@@ -44,7 +44,6 @@ const Item = ({judul, deskripsi, image, link}) => {
     </View>
   );
 };
-
 
 const App = ({navigation}) => {
   const [data, setData] = useState({});
@@ -139,7 +138,7 @@ const styles = StyleSheet.create({
     width: 170,
     height: 200,
     marginVertical: 10,
-    marginHorizontal: 10
+    marginHorizontal: 10,
   },
   title: {
     fontSize: 20,

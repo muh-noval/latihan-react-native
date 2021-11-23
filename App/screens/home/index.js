@@ -11,7 +11,6 @@ import {
 } from 'react-native';
 
 const Home = ({navigation}) => {
-
   return (
     <View style={styles.container}>
       <View style={styles.bg_image}>
@@ -76,7 +75,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     marginTop: 40,
   },
-  IconImage:{
+  IconImage: {
     width: 50,
     height: 50,
     marginBottom: 20,

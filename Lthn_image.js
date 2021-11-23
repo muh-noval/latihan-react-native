@@ -36,4 +36,3 @@ class DisplayAnImage extends Component {
 }
 
 export default DisplayAnImage;
-

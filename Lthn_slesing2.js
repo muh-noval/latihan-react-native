@@ -10,7 +10,10 @@ const Slesing2 = () => {
           source={require('./gambar.png')}
         />
         <TouchableOpacity style={styles.backButton}>
-          <Image style={styles.imagebackButton} source={require('./iconback.png')}/>
+          <Image
+            style={styles.imagebackButton}
+            source={require('./iconback.png')}
+          />
         </TouchableOpacity>
       </View>
       <View style={styles.Board}>
@@ -43,12 +46,12 @@ const styles = StyleSheet.create({
     width: '100%',
     height: 240,
   },
-  backButton:{
+  backButton: {
     position: 'absolute',
     marginHorizontal: 20,
     marginVertical: 20,
   },
-  imagebackButton:{
+  imagebackButton: {
     width: 20,
     height: 20,
     backgroundColor: 'red',

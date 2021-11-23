@@ -66,18 +66,17 @@ const App = ({navigation}) => {
   }, []);
 
   // const [getPokemons] = useLazyQuery(
-  //   GET_Pokemons, 
+  //   GET_Pokemons,
   //   {
   //     onCompleted: async (response) => {
-  //       setData(response?.pokemons); 
-  //       console.log('Berhasil', response); 
+  //       setData(response?.pokemons);
+  //       console.log('Berhasil', response);
   //     },
   //     onError: async (error) => {
   //       console.log('Anda', error);
   //     },
   //   },
   // );
-
 
   // useEffect(() => {
   //   getPokemons({
@@ -86,8 +85,6 @@ const App = ({navigation}) => {
   //     },
   //   });
   // }, []);
-
-
 
   const renderItem = ({item}) => (
     <Item
